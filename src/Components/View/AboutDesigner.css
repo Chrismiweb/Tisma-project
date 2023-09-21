@@ -1,0 +1,135 @@
+.About-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.user-img img{
+    width: 70%;
+}
+.about-user{
+    width: 70%;
+    padding: 40px 0px;
+    /* height: 140px; */
+    justify-content: center;
+    align-items: center;
+    /* background-color: khaki; */
+    background-image: url(../View/background.png);
+
+    display: flex;
+    justify-content: space-evenly;
+}
+.user-name{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.user-name h3{
+    color: #266696;
+
+}
+.user-name p{
+    color: white;
+}
+.user-work-container{
+    width: 70%;
+    padding: 30px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-user-product{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    text-align: left;
+
+}
+.about-user-product h3{
+    color: #266696;
+    font-size: 23px;
+}
+.about-user-product h4{
+    font-size: 12px;
+}
+.about-user-product h5{
+    font-weight: lighter;
+}
+.user-contact {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 7px;
+}
+.user-contact h4, .user-contact h5{
+    color: #266696;
+    font-weight: lighter;
+}
+.user-btn{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.user-btn button{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: none;
+    background-color: #266696;
+}
+
+@media screen and (max-width:950px) {
+   
+    .about-user{
+        width: 80%;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .user-img {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+    .user-img img{
+        width: 40%;
+    }
+    .user-work-container{
+        width: 80%;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .about-user-product{
+        gap: 20px;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+       text-align: center;
+    }
+    .about-user-product h4{
+        font-size: 15px;
+    }
+    .user-btn {
+        width: 50%;
+        gap: 0px;
+    }
+    .user-name {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .user-contact{
+        width: 100%;
+    }
+}

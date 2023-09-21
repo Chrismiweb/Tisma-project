@@ -1,0 +1,135 @@
+.header{
+    width: 100%;
+    /* height: 5vh; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 25px;
+    margin-top: 30px;
+}
+.maya{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.large{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+.tis{
+    margin-left: 80px;
+}
+.tis a{
+    text-decoration: none;
+    color: #266696;
+}
+.bar{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.bar a{
+    text-decoration: none;
+    color: black;
+}
+.btn button {
+    font-size: 23px;
+    color: white;
+    background-color: #266696;
+    margin-right: 80px;
+    font-weight: bold;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 20px;
+}
+.mobile_menu{
+    display: none;
+}
+.mobile_btn{
+    display: none;
+}
+.phone_btn{
+    display: none;
+}
+@media screen and (max-width:960px) {
+    .header{
+        margin-top: 0;
+    }
+    .maya{
+        margin-bottom: 0;
+    }
+    .bar{
+        display: none;
+    }
+    .btn{
+        display: none;
+    }
+    .mobile_btn{
+        display: block;
+    }
+    .large{
+        justify-content: space-aroun;
+    }
+    .tis{
+        margin-left: 0;
+    }
+    .mobile_menu{
+        display: flex;
+        flex-direction: column;
+        background-color: #266696;
+        width: 100%;
+        height: 0;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        transition: 1s ease;
+        overflow: hidden;
+    }
+    .mobile_menu a{
+        color: white;
+        text-decoration: none;
+    }
+    .mobile_sub{
+        display: flex;
+        flex-direction: column;
+        background-color: #266696;
+        font-size: 20px;
+        font-weight: bold;
+        width: 100%;
+        height: 30vh;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        transition: 1s ease;
+        overflow: hidden;
+    }
+    .mobile_sub a{
+        color: white;
+        text-decoration: none;
+    }
+    .phone_btn button{
+        font-size: 23px;
+        color: white;
+        background-color: #266696;
+        margin-right: 80px;
+        font-weight: bold;
+        padding: 10px 30px;
+        border: none;
+        border-radius: 20px;
+        
+    }
+    .phone_btn{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }    
+    .phone_btn a{
+        color: white;
+    }
+}

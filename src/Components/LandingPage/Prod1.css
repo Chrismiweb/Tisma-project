@@ -1,0 +1,21 @@
+.prod1{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.prod1 img{
+    position: relative;
+    bottom: 100px;
+    width: 50%;
+}
+
+@media screen and (max-width:960px) {
+    .prod1 img{
+        bottom: 30px;
+        width: 80%;
+    }
+    .prod1{
+        margin-bottom: 10%;
+    }
+}

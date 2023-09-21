@@ -1,0 +1,64 @@
+.review-sect{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.review-sect h1{
+    font-size: 24px;
+    margin-top: 30px;
+
+}
+.review-container{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+
+}
+.review-border{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.review-image{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+    
+}
+.review-border h1{
+    font-size: 15px;   
+}
+.review-border p{
+    color: #000000B2;
+    font-size: 12px;
+}
+.arrow img{
+    width: 60%;
+    cursor: pointer;
+}
+
+@media screen and (max-width:950px) {
+    
+    .review-container{
+        flex-direction: column;
+        gap: 10px;
+
+    }
+    .review-border{
+        width: 80%;
+    }
+    .review-border p{
+        width: 80%;
+    }
+    .arrow{
+        display: none;
+    }
+}
