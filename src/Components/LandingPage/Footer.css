@@ -10,8 +10,8 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     justify-content: center;
-    padding: 30px;
-    margin-bottom: 40px;
+    padding: 25px;
+    margin-bottom: 35px;
 }
 .mo{
     font-size: 20px;
