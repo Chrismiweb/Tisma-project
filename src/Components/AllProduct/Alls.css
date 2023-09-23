@@ -1,0 +1,39 @@
+.alls{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    width: 80%;
+    height: 100vh;
+    gap: 50px;
+}
+.alls h2{
+    font-weight: 900;
+}
+table {
+    width: 50%;
+    border-collapse: collapse;
+    border: none;
+}
+th {
+    padding: 10px;
+    text-align: left;
+}
+tr:nth-child() {
+    background-color: #f2f2f2;
+}
+td {
+    padding: 10px;
+    border: none;
+}
+.space{
+    display: flex;
+    gap: 10px;
+}
+.edit{
+    color: #266696;
+}
+.ddd{
+    color: #FF000080;
+}
+
+

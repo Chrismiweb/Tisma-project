@@ -1,0 +1,186 @@
+.CreateBusiness{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Business-Heading{
+    width: 80%;
+    padding: 20px 0px;
+}
+.Business-Inputs{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+}
+.bus-reg{
+    width: 100%;
+    text-align: left;
+    color: #CFBABA;
+    margin-bottom: 20px;
+}
+.Business-Name {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.Business-Name input{
+    width: 35%;
+    height: 30px;
+    border: 1px solid #266696 ;
+}
+.Business-Name input::placeholder{
+    padding-left: 20px;
+    color: #CFBABA;
+}
+.Business-Inputs textarea{
+    width: 100%;
+    border: 1px solid #266696;
+    
+}
+.Business-Inputs textarea::placeholder{
+    padding-left: 70px;
+    color: #CFBABA;
+    padding-top: 100px;
+    
+}
+.choose-yes-no{
+    width: 70%;
+    display: flex;
+    gap: 70px;
+    text-align: left;
+}
+.yes-no{
+    display: flex;
+    gap: 20px;
+}
+.yes-no p{
+    font-size: 15px;
+    color: #266696;
+}
+
+.yes-no input{
+    border-radius: ;
+}
+
+
+.bus-ver-num{
+    width: 70%;
+    justify-content: left;
+    padding: 20px 0px;
+}
+.bus-ver-num input{
+    width: 45%;
+    height: 30px;
+    border: 1px solid #266696;
+
+}
+.bus-ver-num input::placeholder{
+    padding-left: 20px;
+    color: #CFBABA;   
+
+}
+.upload-sect{
+    width: 70%;
+    display: flex;
+
+}
+.upload-icon{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+.upload-icon img{
+    width: 35px;
+    cursor: pointer;
+}
+.upload-sect input{
+    width: 25%;
+    height: 30px;
+    border: 1px solid #266696;
+}
+.upload-sect input::placeholder{
+    padding-left: 20px;
+    color: #CFBABA;   
+
+}
+.upload-icon p{
+    color: #CFBABA;   
+}
+.create-bus{
+    width: 70%;
+    display: flex;
+    justify-content: right;
+}
+.create-bus button{
+    padding: 10px 13px ;
+    color: white;
+    background-color: #266696;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;   
+    cursor: pointer;
+}
+.create-bus button:hover{
+    background-color: #0c76c7;
+}
+
+
+@media screen and (max-width:950px) {
+    .Business-Name{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .Business-Name input{
+        width: 100%;
+    }
+    .bus-ver-num input{
+        width: 100%;
+    }
+    .Business-Name input::placeholder{
+        font-size: 11px;
+    }
+    .Business-Inputs textarea::placeholder{
+        font-size: 11px;
+
+    }
+    .bus-ver-num input::placeholder{
+        font-size: 11px;
+    }
+    .upload-sect input::placeholder{
+        font-size: 11px;
+
+    }
+    .upload-sect{
+        flex-direction: column;
+    }
+    .upload-sect input{
+        width: 100%;
+    }
+    .upload-icon{
+        width: 100%;
+        flex-direction: row;
+        margin-top: 20px;
+        justify-content: left;
+    }
+    .create-bus {
+        margin-top: 20px;
+    }
+    .Business-Inputs textarea::placeholder{
+        padding-left: 20px;
+    padding-top: 80px;
+
+
+    }
+}
