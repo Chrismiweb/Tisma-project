@@ -4,6 +4,7 @@ import upload from '../CreateBusiness/upload.png';
 
 
 function Upload() {
+  
   return (
     <div className='UploadImg'>
         <div className='All-product'>
