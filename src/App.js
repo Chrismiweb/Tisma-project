@@ -5,7 +5,6 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import View from "./Components/View/View";
 import Landing from "./Components/LandingPage/Landing";
 import Products from "./Components/ProductsPage/Products";
-// import Asidebar from './Components/Asidebar/Asidebar';
 import Product from "./Components/pages/Product";
 import Business from "./Components/pages/Business";
 import Contact from "./Components/View/Contact";

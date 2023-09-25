@@ -43,14 +43,14 @@ const Asidebar = ({ isOpen, handleOpenSideBar, bg, text }) => {
   ];
 
   return (
-    <aside className={`fixed  ${isOpen ? "w-[100px]" : "w-[250px]"} transition-all duration-300 h-screen bg-white shadow px-4`}>
-      <div className="flex justify-between relative items-center h-[10vh]">
-        <span>Tisma.site</span>
+    <aside className={`fixed   ${isOpen ? "w-[115px]" : "w-[250px]"} transition-all duration-300 h-screen bg-white shadow px-4`}>
+      <div className="flex  justify-between relative items-center h-[10vh]">
+        <span className="text-lg text-[blue]">Tisma.site</span>
         <button className="border absolute right-[-30px] p-1 rounded-full" onClick={handleOpenSideBar}>
           <RiArrowRightSLine className="text-[20px] "/>
         </button>
       </div>
-      <div className="flex h-[80vh] pt-10 flex-col gap-5">
+      <div className="flex h-[80vh] pt-10 flex-col  gap-5">
         {asideData[0].menus.map((menu, i) => (
           <a
             href={`/dashboard/${menu.pathname}`}
@@ -58,7 +58,7 @@ const Asidebar = ({ isOpen, handleOpenSideBar, bg, text }) => {
             className={`${bg} flex gap-2 font-[700] capitalize items-center`}
           >
             <span className={`text-[25px] ${isOpen&&"mx-auto"}`}>{menu.icon}</span>
-            {!isOpen&&<span className={`${text} text-[#266696]`}>{menu.link}</span>}
+            {!isOpen&&<span className={`${text} text-[#266696] hover:bg-[#266696] hover:text-white`}>{menu.link}</span>}
           </a>
         ))}
       </div>

@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Asidebar from "../Asidebar/Asidebar";
+import Empty from "../AllMessages/Empty"
 
 function DashboardContact() {
   const [isOpen, setisOpen] = useState(false);
@@ -11,7 +12,7 @@ function DashboardContact() {
     <section className="flex gap-4">
       <Asidebar handleOpenSideBar={handleOpenSideBar} isOpen={isOpen} />
       <main className={`${isOpen ? "pl-[100px]" : "pl-[250px]"}`}>
-        <div>Contact</div>
+        <div> <Empty/> </div>
       </main>
     </section>
   );

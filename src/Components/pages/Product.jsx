@@ -1,20 +1,27 @@
-import Asidebar from '../Asidebar/Asidebar'
+import Asidebar from "../Asidebar/Asidebar";
 import React, { useState } from "react";
+import Upload from "../CreateBusiness/Upload";
+import All from "../AllProduct/All";
+import Uploading from "../AllProduct/Uploading";
 
 function Product() {
   const [isOpen, setisOpen] = useState(false);
+  const [showUpload, setShowUpload] = useState(false);
 
   const handleOpenSideBar = () => {
     setisOpen(!isOpen);
   };
+  const handleUploadPage = () => {
+    setShowUpload(!showUpload);
+  };
   return (
-    <section className="flex gap-4">
+    <section className="">
       <Asidebar handleOpenSideBar={handleOpenSideBar} isOpen={isOpen} />
       <main className={`${isOpen ? "pl-[100px]" : "pl-[250px]"}`}>
-        <div>Product</div>
+        <div>{showUpload ? <Uploading  /> : <All handleUploadPage={handleUploadPage}/>} </div>
       </main>
     </section>
   );
 }
 
-export default Product
+export default Product;

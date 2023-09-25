@@ -24,7 +24,7 @@ const Alls = () => {
             <tr>
                 <td>Buba dress for ladies</td>
                 <td>30, 000</td>
-                <td>1</td>
+                <td className='ml-10'>1</td>
                 <td className='space'><span className='edit'>Edit</span> <span className='ddd'>Delete</span></td>
             </tr>
             <tr>

@@ -6,6 +6,9 @@ module.exports = {
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],  theme: {
     extend: {},
+    width: {
+      'custom': '50rem', // Adjust the width value as needed
+    },  
   },
   plugins: [],
 }
