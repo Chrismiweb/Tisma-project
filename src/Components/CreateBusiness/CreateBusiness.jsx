@@ -40,7 +40,6 @@ function CreateBusiness() {
         <div className='create-bus'>
             <button>Create Business</button>
         </div>
-
     </div>
   )
 }

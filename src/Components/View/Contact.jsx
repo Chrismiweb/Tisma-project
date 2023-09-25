@@ -1,6 +1,8 @@
 import React from 'react'
 import './Contact.css'
+
 function Contact() {
+  
   return (
     <div className='Contact-form'>
         <div className='contact-container'>
@@ -8,6 +10,10 @@ function Contact() {
             <div className='contact-details'>
               <p>What is your name</p>
               <input type="text" />
+            </div>
+            <div className='contact-details'>
+              <p>What is your email</p>
+              <input type="email"/>
             </div>
             <div className='contact-details'>
               <p>Purpose of contacting Ashlyco</p>

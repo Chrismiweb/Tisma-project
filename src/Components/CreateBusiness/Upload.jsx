@@ -3,7 +3,12 @@ import React from 'react';
 import upload from '../CreateBusiness/upload.png';
 
 
+<<<<<<< HEAD
 function Upload({handleCreatepage}) {
+=======
+function Upload() {
+  
+>>>>>>> 0637cfda078ad0cbcb3f2533b9a3b42e86c25281
   return (
     <div className='UploadImg p-10 min-h-screen'>
         <div className='All-product capitalize'>
