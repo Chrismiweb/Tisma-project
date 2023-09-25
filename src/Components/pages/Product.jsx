@@ -1,6 +1,5 @@
 import Asidebar from "../Asidebar/Asidebar";
 import React, { useState } from "react";
-import Upload from "../CreateBusiness/Upload";
 import All from "../AllProduct/All";
 import Uploading from "../AllProduct/Uploading";
 

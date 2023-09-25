@@ -10,6 +10,8 @@ import Business from "./Components/pages/Business";
 import Contact from "./Components/View/Contact";
 import Dashboard from "./Components/pages/Dashboard";
 import DashboardContact from "./Components/pages/DashboardContact";
+import Upload from './Components/CreateBusiness/Upload.1';
+import CreateBusiness from "./Components/CreateBusiness/CreateBusiness";
 
 function App() {
   return (
@@ -21,6 +23,7 @@ function App() {
           <Route path="/dashboard/product" element={<Product />} />
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/dashboard/business" element={<Business />} />
+          <Route path="/upload-business" element={<Upload/>}/>
           <Route path="/contact" element={<Contact />} />
           <Route path="/dashboard/contact" element={<DashboardContact />} />
         </Routes>

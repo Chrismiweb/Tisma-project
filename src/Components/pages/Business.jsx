@@ -1,6 +1,7 @@
 import Asidebar from "../../Components/Asidebar/Asidebar";
 import React, { useState } from "react";
-import Upload from "../CreateBusiness/Upload";
+// import Upload from '../CreateBusiness/Upload';
+import { Upload } from "../CreateBusiness/Upload";
 import CreateBusiness from "../CreateBusiness/CreateBusiness";
 
 function Business() {
@@ -19,7 +20,8 @@ function Business() {
       <main className={`${isOpen ? "pl-[100px]" : "pl-[250px]"}`}>
         <div> {
           showBusiness ? (<CreateBusiness/>) : (<Upload handleCreatepage={handleCreatepage}/>)
-          } </div>
+          } 
+        </div>
       </main>
     </section>
   );

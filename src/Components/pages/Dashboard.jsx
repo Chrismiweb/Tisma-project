@@ -8,7 +8,7 @@ function Dashboard() {
     setisOpen(!isOpen);
   };
   const tasks = [
-    {  name: "AdBuba dress for ladies", price:30000 , Size: 40 },
+    { name: "AdBuba dress for ladies", price:30000 , Size: 40 },
     {  name: "AdBuba dress for ladies", price:30000 , Size: 50 },
     {  name: "AdBuba dress for ladies", price:30000 , Size: 60 },
     {  name: "iphone 15", price:30000 , Size: 60 },
