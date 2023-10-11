@@ -2,7 +2,7 @@ import React from 'react'
 import './CreateBusiness.css'
 import upload from '../CreateBusiness/upload.png'
 
-function CreateBusiness() {
+const CreateBusiness =()=> {
   return (
     <div className='CreateBusiness'>
         <div className='Business-Heading'>

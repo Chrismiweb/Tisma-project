@@ -1,6 +1,5 @@
 import Asidebar from "../Asidebar/Asidebar";
 import React, { useState } from "react";
-import Upload from "../CreateBusiness/Upload";
 import All from "../AllProduct/All";
 import Uploading from "../AllProduct/Uploading";
 
@@ -17,7 +16,7 @@ function Product() {
   return (
     <section className="">
       <Asidebar handleOpenSideBar={handleOpenSideBar} isOpen={isOpen} />
-      <main className={`${isOpen ? "pl-[100px]" : "pl-[250px]"}`}>
+      <main className={`${isOpen ? "pl-0 md:pl-[100px]" : "pl-0 md:pl-[250px]"}`}>
         <div>{showUpload ? <Uploading  /> : <All handleUploadPage={handleUploadPage}/>} </div>
       </main>
     </section>

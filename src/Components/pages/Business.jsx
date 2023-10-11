@@ -1,9 +1,9 @@
 import Asidebar from "../../Components/Asidebar/Asidebar";
 import React, { useState } from "react";
-import Upload from "../CreateBusiness/Upload";
+import Upload from '../CreateBusiness/Upload';
 import CreateBusiness from "../CreateBusiness/CreateBusiness";
 
-function Business() {
+const Business = () => {
   const [isOpen, setisOpen] = useState(false);
   const [showBusiness, setShowBusiness] = useState(false);
 
@@ -16,7 +16,7 @@ function Business() {
   return (
     <section className="">
       <Asidebar handleOpenSideBar={handleOpenSideBar} isOpen={isOpen} />
-      <main className={`${isOpen ? "pl-[100px]" : "pl-[250px]"}`}>
+      <main className={`${isOpen ? "pl-0 md:pl-[100px]" : "pl-0 md:pl-[250px]"}`}>
         <div> {
           showBusiness ? (<CreateBusiness/>) : (<Upload handleCreatepage={handleCreatepage}/>)
           } </div>

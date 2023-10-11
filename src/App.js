@@ -6,10 +6,11 @@ import View from "./Components/View/View";
 import Landing from "./Components/LandingPage/Landing";
 import Products from "./Components/ProductsPage/Products";
 import Product from "./Components/pages/Product";
-import Business from "./Components/pages/Business";
+// import Business from "./Components/pages/Business";
 import Contact from "./Components/View/Contact";
 import Dashboard from "./Components/pages/Dashboard";
 import DashboardContact from "./Components/pages/DashboardContact";
+import Business from "./Components/pages/Business";
 
 function App() {
   return (

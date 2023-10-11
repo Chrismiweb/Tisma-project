@@ -11,7 +11,7 @@ function DashboardContact() {
   return (
     <section className="flex gap-4">
       <Asidebar handleOpenSideBar={handleOpenSideBar} isOpen={isOpen} />
-      <main className={`${isOpen ? "pl-[100px]" : "pl-[250px]"}`}>
+      <main className={`${isOpen ? "pl-0 md:pl-[100px]" : "pl-0 md:pl-[250px]"}`}>
         <div> <Empty/> </div>
       </main>
     </section>

@@ -16,7 +16,7 @@ function Dashboard() {
   return (
     <section className="w-full ">
       <Asidebar handleOpenSideBar={handleOpenSideBar} isOpen={isOpen} />
-      <main className={`${isOpen ? "pl-[100px]" : "pl-[250px]"}`}>
+      <main className={`${isOpen ? "pl-0 md:pl-[100px]" : "pl-0 md:pl-[250px]"}`}>
       <div className="p-10 min-h-screen ">
         <div className="text-black text-[25px] font-bold font-['Poppins']">Dashboard</div>
       <div className="p-10">
