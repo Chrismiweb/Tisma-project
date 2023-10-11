@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
@@ -6,11 +5,12 @@ import View from "./Components/View/View";
 import Landing from "./Components/LandingPage/Landing";
 import Products from "./Components/ProductsPage/Products";
 import Product from "./Components/pages/Product";
-// import Business from "./Components/pages/Business";
 import Contact from "./Components/View/Contact";
 import Dashboard from "./Components/pages/Dashboard";
 import DashboardContact from "./Components/pages/DashboardContact";
 import Business from "./Components/pages/Business";
+import Upload from './Components/CreateBusiness/Upload';
+import CreateBusiness from "./Components/CreateBusiness/CreateBusiness";
 
 function App() {
   return (
@@ -22,6 +22,7 @@ function App() {
           <Route path="/dashboard/product" element={<Product />} />
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/dashboard/business" element={<Business />} />
+          <Route path="/upload-business" element={<Upload/>}/>
           <Route path="/contact" element={<Contact />} />
           <Route path="/dashboard/contact" element={<DashboardContact />} />
         </Routes>
